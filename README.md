@@ -18,7 +18,7 @@ ACIG relies on three distinct model roles - **actor**, **critic**, and **image g
 
 
 
-| Role                | Model                           | Model link                                                               |
+| Role                | Model                           | HuggingFace link                                                               |
 |---------------------|---------------------------------|--------------------------------------------------------------------------|
 | **Actor**           | `Qwen/Qwen3-VL-8B-Instruct`     | [link](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)                 |
 | **Critic**          | `Qwen/Qwen3.5-9B`               | [link](https://huggingface.co/Qwen/Qwen3.5-9B)                           |
