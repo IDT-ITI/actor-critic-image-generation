@@ -7,7 +7,7 @@ SET = 'test' # options: 'dev', 'test'
 RERUN_INITIAL_PROMPT = False
 THRESHOLD = 4
 ITERATIONS = 6
-IMG_GEN_MODELS = ['zt'] # options: 'zt', 'sdnq', '2512', 'flux'
+IMG_GEN_MODELS = ['zt'] # options: 'zt', 'sdnq', '2512' 
 CRITIC_FEEDBACK = True
 
 
