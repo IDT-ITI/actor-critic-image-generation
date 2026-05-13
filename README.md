@@ -17,13 +17,14 @@ This repository presents the CERTH-ITI approach to the NewsImages 2026 challenge
 ACIG relies on three distinct model roles - **actor**, **critic**, and **image generator** - each fulfilled by a dedicated model. The table below lists the specific models used in the current configuration.
 
 
-| Role                | Model                           |
-|---------------------|---------------------------------|
-| **Actor**           | `Qwen/Qwen3-VL-8B-Instruct`     | 
-| **Critic**          | `Qwen/Qwen3.5-9B`               | 
-| **Image Generator** | `Z-Image-Turbo`                 | 
-| **Image Generator** | `Qwen-Image-SDNQ-uint4-svd-r32` |
-| **Image Generator** | `Qwen-Image-2512`               |
+
+| Role                | Model                           | Model link                                                               |
+|---------------------|---------------------------------|--------------------------------------------------------------------------|
+| **Actor**           | `Qwen/Qwen3-VL-8B-Instruct`     | [link](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)                 |
+| **Critic**          | `Qwen/Qwen3.5-9B`               | [link](https://huggingface.co/Qwen/Qwen3.5-9B)                           |
+| **Image Generator** | `Z-Image-Turbo`                 | [link](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo)                  |
+| **Image Generator** | `Qwen-Image-SDNQ-uint4-svd-r32` | [link](https://huggingface.co/Disty0/Qwen-Image-2512-SDNQ-uint4-svd-r32) |
+| **Image Generator** | `Qwen-Image-2512`               | [link](https://huggingface.co/Qwen/Qwen-Image-2512)                      |
 
 
 The pipeline is model-agnostic by design - the actor, critic, and image generator components can each be replaced with any model of choice without altering the core method.
