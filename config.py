@@ -11,10 +11,10 @@ IMG_GEN_MODELS = ['zt'] # options: 'zt', 'sdnq', '2512', 'flux'
 CRITIC_FEEDBACK = True
 
 
-if SET == 'train':
-    csv_file = "../newsimages_test_and_evaluation_26_v1.0/news_articles_2025_updated.csv"
+if SET == 'dev':
+    csv_file = "newsimages_test_and_evaluation_26_v1.0/news_articles_2025_updated.csv"
 elif SET == 'test':
-    csv_file =  "../newsimages_test_and_evaluation_26_v1.0/news_articles_test.csv"
+    csv_file =  "newsimages_test_and_evaluation_26_v1.0/news_articles_test.csv"
 
 RUN_ = f"{SET}_{'_'.join(IMG_GEN_MODELS)}_thr_{THRESHOLD}_it_{ITERATIONS}_crFdn_{CRITIC_FEEDBACK}"
 RUN_ID = f"{RUN_}{os.path.sep}{datetime.now().strftime('%Y_%m_%d_%H_%M')}"
