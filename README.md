@@ -57,6 +57,29 @@ python newsimages2026_certh_iti.py
 ## Citation
 
 If you find our method useful in your work, please cite the following publication where this approach was proposed:
+D. Galanopoulos, V. Mezaris, "A Test-time Actor-Critic Approach to News Images Generation", Proc. 2026 Multimedia Evaluation Workshop (MediaEval'26), Amsterdam, NL, June 2026. 
+
+Pre-print: arXiv:2606.21304, [doi: 10.48550/arXiv.2606.21304](https://doi.org/10.48550/arXiv.2606.21304). 
+
+```bibtex
+@inproceedings{galanopoulos_mediaeval2026,
+      title={A Test-time Actor-Critic Approach to News Images Generation}, 
+      author={Damianos Galanopoulos and Vasileios Mezaris},
+      year={2026},
+      booktitle = {Proc. 2026 Multimedia Evaluation Workshop (MediaEval'26)},
+      location = {Amsterdam, NL}
+}
+```
+
+## Acknowledgement
+
+This work was supported by the EU’s Horizon Europe programme under grant agreement 101214398 ELLIOT.
+
+## License
+This code is provided for academic, non-commercial use only. Please also check for any restrictions applied in the code parts, trained models, and datasets used here from other sources. For the materials not covered by any such restrictions, redistribution and use in source and binary forms, with or without modification, are permitted for academic non-commercial use provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation provided with the distribution. 
+
+This software is provided by the authors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the authors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
 
-**Citation will be updated upon publication.**
