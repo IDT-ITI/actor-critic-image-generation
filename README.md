@@ -57,6 +57,7 @@ python newsimages2026_certh_iti.py
 ## Citation
 
 If you find our method useful in your work, please cite the following publication where this approach was proposed:
+
 D. Galanopoulos, V. Mezaris, "A Test-time Actor-Critic Approach to News Images Generation", Proc. 2026 Multimedia Evaluation Workshop (MediaEval'26), Amsterdam, NL, June 2026. 
 
 Pre-print: arXiv:2606.21304, [doi: 10.48550/arXiv.2606.21304](https://doi.org/10.48550/arXiv.2606.21304). 
